@@ -6,6 +6,14 @@ info:
 servers:
   - url: https://apim-lab-pk.azure-api.net/sw
 paths:
+  /films/:
+    get:
+      summary: GetFilms
+      description: GetFilms
+      operationId: getfilms
+      responses:
+        '200':
+          description: 'Get the Star wars films'
   /people/:
     get:
       summary: GetPeople
