@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Colors API
+  title: Mark Harrison
   description: Colors API
   termsOfService: https://github.com/markharrison/ColorsAPI/blob/master/LICENSE
   contact:
@@ -170,7 +170,7 @@ paths:
       parameters:
         - name: colorId
           in: path
-          description: Format - int32. Format - int32. Format - int32. Format - int32. Format - int32. Id of Color to return
+          description: Format - int32. Format - int32. Format - int32. Format - int32. Format - int32. Format - int32. Id of Color to return
           required: true
           schema:
             type: integer
@@ -256,7 +256,7 @@ paths:
       parameters:
         - name: colorId
           in: path
-          description: Format - int32. Format - int32. Format - int32. Format - int32. Format - int32. Id of Color to update
+          description: Format - int32. Format - int32. Format - int32. Format - int32. Format - int32. Format - int32. Id of Color to update
           required: true
           schema:
             type: integer
@@ -341,7 +341,7 @@ paths:
       parameters:
         - name: colorId
           in: path
-          description: Format - int32. Format - int32. Format - int32. Format - int32. Format - int32. Id of Color to delete
+          description: Format - int32. Format - int32. Format - int32. Format - int32. Format - int32. Format - int32. Id of Color to delete
           required: true
           schema:
             type: integer
