@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "displayName": "ipRestricted",
+    "secret": false,
+    "tags": [],
+    "value": "123.6.0.1"
+  }
+}
