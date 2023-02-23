@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "approvalRequired": false,
+    "description": "Susbcribers will be able to run X calls/minute up to a maximum of Y calls/week.",
+    "displayName": "Silver Tier",
+    "state": "published",
+    "subscriptionRequired": true
+  }
+}
