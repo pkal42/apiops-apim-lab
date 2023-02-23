@@ -1,8 +1,0 @@
-{
-  "properties": {
-    "displayName": "ipValidated",
-    "secret": false,
-    "tags": [],
-    "value": "123.4.0.1"
-  }
-}
