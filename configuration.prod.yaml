@@ -4,7 +4,7 @@ namedValues:
     properties:
       displayName: AzureSubscriptionId
       keyVault: 
-        identityClientId: 13d0c382-7f90-4bd5-94e9-2925b310124b
+        identityClientId: e015028e-b389-475c-b298-6695ffdd57ab
         secretIdentifier: https://apim-lab-pk-kv1.vault.azure.net/secrets/AzureSubscriptionId
 loggers:
     - name: apim-lab-ai
