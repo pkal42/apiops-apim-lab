@@ -1,1 +1,23 @@
 apimServiceName: apim-lab-prod-pk
+namedValues:
+  - name: AzureSubscriptionId
+    properties:
+      displayName: AzureSubscriptionId
+      keyVault: 
+        identityClientId: 13d0c382-7f90-4bd5-94e9-2925b310124b
+        secretIdentifier: https://apim-lab-pk-kv1.vault.azure.net/secrets/AzureSubscriptionId
+loggers:
+    - name: apim-lab-ai
+      properties:
+        loggerType: applicationInsights
+        description: prod application insights
+        resourceId: "/subscriptions/{{AzureSubscriptionId}}/resourceGroups/apim-lab-prod-pk/providers/microsoft.insights/components/apim-lab-prod-ai"
+        credentials:
+          instrumentationKey: "{{Logger-Credentials--63f6bbed217d201364ce582b}}"
+        isBuffered: true
+diagnostics:
+   - name: applicationinsights
+     properties:
+       verbosity: Error
+       loggerId: "/subscriptions/{{AzureSubscriptionId}}/resourceGroups/apim-lab-prod-pk/providers/Microsoft.ApiManagement/service/apim-lab-prod-pk/loggers/apim-lab-prod-ai"
+
